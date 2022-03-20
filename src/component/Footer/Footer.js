@@ -9,7 +9,7 @@ import { FaGitlab } from "react-icons/fa";
 function Footer() {
   return (
     <>
-        <div className='FooterBox' id='#contact'>
+        <div className='FooterBox'>
             <div className='reseaux'>
                 <li>
                   <a href='https://iut-info.univ-reims.fr/gitlab/roth0003'>
@@ -42,7 +42,7 @@ function Footer() {
                 <BiCopyright />
                 2022
               </div>
-              <a href='steverothier.com'>Steve Rothier</a>  All right reserved
+              <a href='steverothier.com'>Steve Rothier</a> Tous droits réservés.
             </div>
         </div>
     </>
