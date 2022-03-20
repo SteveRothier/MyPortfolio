@@ -4,7 +4,7 @@ function Contact() {
   return (
     <>
         <div className='ContactBox' id='#contact'>
-            <diV>
+            <div>
                 <form className='formContact'>
                     <div>
                         <input 
@@ -49,7 +49,7 @@ function Contact() {
                         </input>
                     </div>
                 </form>
-            </diV>
+            </div>
         </div>
     </>
   );

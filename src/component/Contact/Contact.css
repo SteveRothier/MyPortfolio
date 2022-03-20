@@ -63,3 +63,18 @@
     color: #F0E7FD;
 }
 
+@media screen and (max-width: 500px) {
+    .inputSize, .submitInputSize{
+        width: 20rem;
+        height: 2rem;
+        padding-left: 0.5rem;
+    }
+
+    .textareaSize {
+        width: 20rem;
+    }
+
+    .submitInputSize {
+        width: 21rem;
+    }
+}
