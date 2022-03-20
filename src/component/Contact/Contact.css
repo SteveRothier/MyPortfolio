@@ -1,3 +1,25 @@
+.ContactBox {
+    margin-top: 5rem;
+}
+
+.contactZone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactStyle {
+    color: rgb(231, 27, 71);
+    text-shadow: 1px 1px 3px rgb(231, 27, 71);
+    font-size: 4rem;
+}
+
+.questionStyle {
+    color: #F0E7FD;
+    text-shadow: 1px 1px 2px #F0E7FD;
+}
+
 .formContact {
     display: flex;
     align-items: center;
@@ -30,7 +52,7 @@
 
 .textareaSize {
     width: 25rem;
-    height: 8rem;
+    height: 10rem;
     padding-left: 0.5rem;
     padding-top: 0.5rem;
     background-color: #4A4153;
@@ -65,16 +87,16 @@
 
 @media screen and (max-width: 500px) {
     .inputSize, .submitInputSize{
-        width: 20rem;
+        width: 19rem;
         height: 2rem;
         padding-left: 0.5rem;
     }
 
     .textareaSize {
-        width: 20rem;
+        width: 19rem;
     }
 
     .submitInputSize {
-        width: 21rem;
+        width: 20rem;
     }
 }
