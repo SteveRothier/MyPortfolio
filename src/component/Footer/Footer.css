@@ -1,0 +1,90 @@
+.FooterBox {
+    background-color: #4A4153;
+    padding: 4rem;
+}
+
+.reseaux {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.gitlab {
+    padding: 0.75rem;
+    border-radius: 25px;
+    background-color: #FCA326;
+    box-shadow: 1px 1px 2px #FCA326;
+}
+
+.github {
+    padding: 0.75rem;
+    border-radius: 25px;
+    background-color: #333;
+    box-shadow: 1px 1px 2px #333;
+}
+
+.inkedin {
+    padding: 0.75rem;
+    border-radius: 25px;
+    background-color: #0077b5;
+    box-shadow: 1px 1px 2px #0077b5;
+}
+
+.email {
+    padding: 0.75rem;
+    border-radius: 25px;
+    background-color: #34a853;
+    box-shadow: 1px 1px 2px #34a853;
+}
+
+.discord {
+    padding: 0.75rem;
+    border-radius: 25px;
+    background-color: #5865F2;
+    box-shadow: 1px 1px 2px #5865F2;
+}
+
+.reseaux li {
+    list-style: none;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F0E7FD;
+}
+
+.copyrightYear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    padding: 1rem;
+    text-decoration: none;
+    color: rgb(231, 27, 71);
+    text-shadow: 1px 1px 1px rgb(231, 27, 71);
+}
+
+.ReseauLogo {
+    color: #F0E7FD;
+}
+
+@media screen and (max-width: 500px) {
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #F0E7FD;
+        font-size: small;
+    }
+
+    .reseaux {
+        font-size: small;
+    }
+}
