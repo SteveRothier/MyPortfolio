@@ -1,0 +1,245 @@
+.ProfilBox {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.myProfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.myStatus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.myName {
+    font-size: 3.5rem;
+    color: #F0E7FD;
+    text-shadow: 1px 1px 3px #F0E7FD;
+    margin-bottom: 2rem;
+}
+
+.status {
+    font-size: 2rem;
+    color: #F0E7FD;
+    text-shadow: 1px 1px 1px #F0E7FD;
+    margin-top: 1.5rem;
+}
+
+.myHead {
+    width: 17.5rem;
+    background-color: #4A4153;
+    border: 0.15rem solid #F0E7FD;
+    border-radius: 25rem;
+    filter: drop-shadow(0 0 0.25rem crimson);
+}
+
+.statusBlock {
+    width: 35rem;
+    margin-top: -4rem;
+    border: 2px solid #F0E7FD;
+    border-radius: 15px;
+    box-shadow: 1px 1px 2px crimson, 0 0 10px crimson, 0 0 10px crimson;
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-indent: 10%;
+    color: #F0E7FD;
+}
+
+.myCv {
+    margin-top: 2rem;
+    color: #F0E7FD;
+    font-size: 1rem;
+}
+
+.myCv a{
+    margin-left: -0.5rem;
+}
+
+.myCv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+.myCvDownload {
+    margin-left: 0.5rem;
+    color: #F0E7FD;
+    background-color: crimson;
+    font-size: 1.5rem;
+    padding: 0.25rem;
+    border: 2px solid #F0E7FD;
+    border-radius: 10px;
+}
+
+.myCvNone {
+    display: none;
+}
+
+.myCvNonePhone {
+    display: none;
+}
+
+@media screen and (max-width: 1250px) {
+    .ProfilBox {
+        margin-top: 1rem;
+    }
+
+    .myStatus {
+        margin-top: 4rem;
+    }
+
+    .myName {
+        font-size: 2.5rem;
+    }
+
+    .status {
+        font-size: 1.25rem;
+    }
+
+    .myHead {
+        width: 15rem;
+    }
+
+    .statusBlock {
+        width: 25rem;
+        margin-top: 2rem;
+        padding: 1.25em;
+    }
+
+    .citation h1{
+        font-size: 1.25rem;
+    }
+
+    .myCv {
+        display: none;
+    }
+
+    .myCvNone {
+        margin-top: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        color: #F0E7FD;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .ProfilBox {
+        margin-top: 0;
+    }
+
+    .myName {
+        font-size: 2rem;
+    }
+
+    .status {
+        font-size: 1.25rem;
+    }
+
+    .myHead {
+        width: 12.5rem;
+    }
+
+    .ProfilBox {
+        margin-top: 3rem;
+    }
+
+    .statusBlock {
+        width: 15rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        padding: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .myProfil {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        flex-direction: column;
+    }
+    
+    .myStatus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .myName {
+        font-size: 2rem;
+    }
+
+    .myStatus {
+        margin-top: 1rem;
+    }
+
+    .status {
+        margin: 1rem;
+        font-size: 1.25rem;
+    }
+
+    .myHead {
+        width: 15rem;
+    }
+
+    .ProfilBox {
+        margin-top: 0;
+    }
+
+    .statusBlock {
+        width: 27.5rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .myCvNone {
+        margin-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .myHead {
+        width: 12.5rem;
+    }
+
+    .statusBlock {
+        width: 17.5rem;
+        margin-top: 1rem;
+        font-size: 1rem;
+        padding: 1rem;
+    }
+
+    .myCvNone {
+        display: none;
+    }
+
+    .myCvNonePhone {
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1rem;
+        color: #F0E7FD;
+    }
+
+    .myCvDownload {
+        margin-left: 0.5rem;
+        color: #F0E7FD;
+        background-color: crimson;
+        font-size: 2rem;
+        padding: 0.25rem;
+        border: 2px solid #F0E7FD;
+        border-radius: 10px;
+    }
+}
