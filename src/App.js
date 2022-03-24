@@ -1,14 +1,16 @@
 import './App.css';
-import Contact from './component/Contact/Contact';
 import Navbar from './component/Navbar/Navbar';
-import Footer from './component/Footer/Footer';
 import Profil from './component/Profil/Profil';
+import Competence from './component/Competence/Competence';
+import Contact from './component/Contact/Contact';
+import Footer from './component/Footer/Footer';
 
 function App() {
   return (
     <>
       <Navbar />
       <Profil />
+      <Competence />
       <Contact />
       <Footer />
     </>

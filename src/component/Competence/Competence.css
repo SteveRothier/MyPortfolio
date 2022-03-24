@@ -1,0 +1,238 @@
+.CompetenceBox {
+    background-color: #4A4153;
+    box-shadow: 1px 1px 2px black, 0 0 15px #4A4153, 0 0 5px #4A4153;
+    padding-bottom: 2rem;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    color: #F0E7FD;
+    text-shadow: 1px 1px 2px #F0E7FD;
+}
+
+.languageBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.languageList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.languageLevelBar {
+    margin: 0.75rem;
+    height: 2rem;
+    width: 60rem;
+    background-color: #2E282F;
+    border-radius: 5px;
+}
+
+.languageType {
+    text-align: left;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.percentage {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.languageName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #F0E7FD;
+    text-shadow: 1px 1px 2px #F0E7FD;
+}
+
+.french {
+    background-color: #318CE7;
+    width: 95%;
+}
+
+.english {
+    background-color: #F7230C;
+    width: 60%;
+}
+
+.italian {
+    background-color: #1F8B28;
+    width: 35%;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    color: #F0E7FD;
+    text-shadow: 1px 1px 2px #F0E7FD;
+}
+
+.IT_language {
+    width: 35rem;
+    padding: 2rem;
+    border: 2px solid crimson;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 0.125rem crimson);
+}
+
+.IT_languageList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+
+.IT_languageName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2rem;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    color: #F0E7FD;
+    text-shadow: 1px 1px 2px #F0E7FD;
+}
+
+.html {
+    width: 90%;
+    background-color: #EC6231;
+}
+
+.css {
+    width: 75%;
+    background-color: #264DE4;
+}
+
+.php {
+    width: 50%;
+    background-color: #8892BF;;
+}
+
+.javascript {
+    width: 60%;
+    background-color: #F0B464;
+}
+
+.python {
+    width: 40%;
+    background-color: #3776AB;
+}
+
+.mySQL {
+    width: 60%;
+    background-color: #00758F;
+}
+
+.react {
+    width: 65%;
+    background-color: #61DBFB;
+}
+
+.symfony {
+    width: 35%;
+    background-color: #333333;
+}
+
+.flask {
+    width: 25%;
+    background-color: #3776AB;
+}
+
+.languageLogo {
+    font-size: 1.25rem;
+    padding-right: 0.75rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .languageLevelBar {
+        width: 50rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .languageLevelBar {
+        width: 40rem;
+    }
+
+    .languageBox {
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .languageLevelBar {
+        width: 35rem;
+    }
+
+    .languageType {
+        padding-left: 0.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .languageLevelBar {
+        width: 30rem;
+    }
+
+    .languageType {
+        padding-left: 0.25rem;
+    }
+
+    .languageLogo {
+        font-size: 1rem;
+        padding-right: 0.6rem;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .languageLevelBar {
+        width: 25rem;
+    }
+
+    .languageLevelBar {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .languageLevelBar {
+        width: 20rem;
+    }
+
+    .languageLevelBar {
+        font-size: 0.75rem;
+    }
+
+    .language {
+        padding-top: 0rem;
+    }
+
+    .languageLogo {
+        padding-right: 0.22rem;
+    }
+
+    .percentage {
+        text-align: right;
+        padding-right: 0.25rem;
+    }
+}

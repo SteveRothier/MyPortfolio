@@ -7,6 +7,14 @@ function Profil() {
   return (
     <>
         <div className='ProfilBox'>
+            <div className='proposZone'>
+                <div className='proposStyle'>
+                    À propos
+                </div>
+                <div className='questionStyle'>
+                    Qui suis-je ?
+                </div>
+            </div>
             <div className='myProfil'>
                 <div className='myStatus'>
                     <div className='myName'>Steve ROTHIER</div>

@@ -1,6 +1,25 @@
 .ProfilBox {
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-bottom: 5rem;
+}
+
+.proposZone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.proposStyle {
+    color: rgb(231, 27, 71);
+    text-shadow: 1px 1px 3px rgb(231, 27, 71);
+    font-size: 4rem;
+}
+
+.questionStyle {
+    color: #F0E7FD;
+    text-shadow: 1px 1px 2px #F0E7FD;
 }
 
 .myProfil {
