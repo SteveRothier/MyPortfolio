@@ -1,3 +1,9 @@
+.NewsListBox {
+    background-color: #4A4153;
+    box-shadow: 1px 1px 2px black, 0 0 10px #4A4153, 0 0 5px #4A4153;
+    padding-bottom: 2em;
+}
+
 .newsZone {
     display: flex;
     align-items: center;
@@ -24,16 +30,14 @@
 }
 
 .NewsItemBox img{
-    border-bottom: solid #4A4153;
-    border-top: solid #4A4153;
+    border-bottom: solid #2E282F;
+    border-top: solid #2E282F;
     width: 19rem;
     height: 16rem;
 }
 
-.title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.newsTitle {
+    text-align: center;
     margin: 1rem;
     font-size: 1.5rem;
     text-shadow: 1px 1px 1px #F0E7FD;
@@ -53,7 +57,6 @@
 
 .actif {
     margin: 1rem;
-
 }
 
 .bar {
@@ -69,8 +72,8 @@
 }
 
 .triggerButton {
-    border: 2px solid #4A4153;
-    background-color: #4A4153;
+    border: 2px solid #2E282F;
+    background-color: #2E282F;
     border-radius: 10px;
     color: #F0E7FD;
     width: 20rem;
@@ -79,7 +82,7 @@
 }
 
 .modal {
-    background-color: #4A4153;
+    background-color: #2E282F;
     width: 70rem;
     height: 30rem;
     border: solid #F0E7FD;
@@ -143,7 +146,7 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
     .newsItemsList {
         justify-content: center;
         flex-direction: column;;

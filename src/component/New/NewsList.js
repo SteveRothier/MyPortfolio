@@ -23,22 +23,22 @@ function NewsList() {
                 </div>
             </div>
             <div className='newsItemsList'>
-            <NewsItem 
-                titre='Recherche de stage'
-                image={intership}
-                date='21/03/2022'
-                actif='True'
-                description={stageDescription}
-                imageModal={intership}
-            />
-            <NewsItem 
-                titre='DUT informatique'
-                image={iut}
-                date='01/09/2020'
-                actif='True'
-                description={dutDescription}
-                imageModal={dut}
-            />
+                <NewsItem 
+                    titre='Recherche de stage'
+                    image={intership}
+                    date='21/03/2022'
+                    actif='True'
+                    description={stageDescription}
+                    imageModal={intership}
+                />
+                <NewsItem 
+                    titre='DUT informatique'
+                    image={iut}
+                    date='01/09/2020'
+                    actif='True'
+                    description={dutDescription}
+                    imageModal={dut}
+                />
             </div>
         </div>
     </>

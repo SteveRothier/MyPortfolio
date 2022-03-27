@@ -9,7 +9,7 @@ function NewsItem({titre, image, date, actif, description, imageModal}) {
           trigger={
             <button className='triggerButton'>
               <div className='NewsItemBox'>
-                <div className='title'>{titre}</div>
+                <div className='newsTitle'>{titre}</div>
                 <img src={image} alt=''></img>
                 <div className='date'>{date}</div>
                 <div className='bar'></div>
