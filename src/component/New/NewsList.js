@@ -17,8 +17,8 @@ function NewsList() {
             <div className='newsItemsList'>
 
                 <div className='NewsItemBox'>
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
                             <div className='newsTitle'>Recherche de stage</div>
                             <img src={intership} alt=''></img>
                             <div className='date'>21/03/2022</div>
@@ -27,7 +27,7 @@ function NewsList() {
                                 <p className='actif'>True</p>
                             </div>
                         </div>
-                        <div class="flip-card-back">
+                        <div className="flip-card-back">
                             <p>
                                 Je suis à la recherche d'un stage en informatique 
                                 pour valider ma derrière année de DUT informatique 
@@ -40,8 +40,8 @@ function NewsList() {
                 </div>
 
                 <div className='NewsItemBox'>
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
                             <div className='newsTitle'>DUT informatique</div>
                             <img src={iut} alt=''></img>
                             <div className='date'>01/09/2020</div>
@@ -50,7 +50,7 @@ function NewsList() {
                                 <p className='actif'>True</p>
                             </div>
                         </div>
-                        <div class="flip-card-back">
+                        <div className="flip-card-back">
                             <p>
 
                             </p>

@@ -24,9 +24,9 @@ function ProjectsList() {
                 </div>
             </div>
             <div className='ProjectsItemsList'>
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
                             <div className='projectsTitle'>Mon Portfolio</div>
                             <div className='type'>Personnel</div>
                             <div className='matiere'>ㅤ</div>
@@ -35,16 +35,16 @@ function ProjectsList() {
                             </div>
                             <div className='date'>21/03/2022</div>
                             </div>
-                        <div class="flip-card-back">
+                        <div className="flip-card-back">
                             <p>Ce portfolio me permet de montrer mon profil en tant que developpeur</p> 
                             <p>Créer entierement en ReactJS</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
                             <div className='projectsTitle'>WebNot</div>
                             <div className='type'>Scolaire</div>
                             <div className='matiere'>Projet 4</div>
@@ -53,15 +53,15 @@ function ProjectsList() {
                             </div>
                             <div className='date'>17/03/2022</div>
                             </div>
-                        <div class="flip-card-back">
+                        <div className="flip-card-back">
 
                         </div>
                     </div>
                 </div>
 
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
                             <div className='projectsTitle'>Teams Education</div>
                             <div className='type'>Scolaire</div>
                             <div className='matiere'>Expression-Communication</div>
@@ -70,15 +70,15 @@ function ProjectsList() {
                             </div>
                             <div className='date'>08/03/2022</div>
                             </div>
-                        <div class="flip-card-back">
+                        <div className="flip-card-back">
 
                         </div>
                     </div>
                 </div>
 
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
                             <div className='projectsTitle'>Gestion d'entreprise</div>
                             <div className='type'>Scolaire</div>
                             <div className='matiere'>Gestion des systèmes d'information</div>
@@ -87,15 +87,15 @@ function ProjectsList() {
                             </div>
                             <div className='date'>05/01/2022</div>
                             </div>
-                        <div class="flip-card-back">
+                        <div className="flip-card-back">
 
                         </div>
                     </div>
                 </div>
 
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
                             <div className='projectsTitle'>Vet' consult</div>
                             <div className='type'>Scolaire</div>
                             <div className='matiere'>Projet 3</div>
@@ -104,16 +104,16 @@ function ProjectsList() {
                             </div>
                             <div className='date'>17/12/2021</div>
                             </div>
-                        <div class="flip-card-back">
+                        <div className="flip-card-back">
                             <p>Le but de ce projet est de réaliser un site Web pour un vétérinaire
 afin d’améliorer l’optimisation de son emploi du temps.</p>
                         </div>
                     </div>
                 </div>
 
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
                             <div className='projectsTitle'>Droit des Technologies</div>
                             <div className='type'>Scolaire</div>
                             <div className='matiere'>Gestion des systèmes d'information</div>
@@ -122,15 +122,15 @@ afin d’améliorer l’optimisation de son emploi du temps.</p>
                             </div>
                             <div className='date'>14/12/2021</div>
                             </div>
-                        <div class="flip-card-back">
+                        <div className="flip-card-back">
 
                         </div>
                     </div>
                 </div>
 
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
                             <div className='projectsTitle'>FilmBot</div>
                             <div className='type'>Scolaire</div>
                             <div className='matiere'>Projet 2/ base de données</div>
@@ -139,15 +139,15 @@ afin d’améliorer l’optimisation de son emploi du temps.</p>
                             </div>
                             <div className='date'>10/06/2021</div>
                             </div>
-                        <div class="flip-card-back">
+                        <div className="flip-card-back">
 
                         </div>
                     </div>
                 </div>
 
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
                             <div className='projectsTitle'>Le métier qui me plaît</div>
                             <div className='type'>Scolaire</div>
                             <div className='matiere'>Projet 1/ concours</div>
@@ -156,7 +156,7 @@ afin d’améliorer l’optimisation de son emploi du temps.</p>
                             </div>
                             <div className='date'>15/12/2020</div>
                             </div>
-                        <div class="flip-card-back">
+                        <div className="flip-card-back">
                             <p>
                                 Dans le cadre du concours Je filme
                                 le métier qui me plaît péconisé dans 
@@ -176,9 +176,9 @@ afin d’améliorer l’optimisation de son emploi du temps.</p>
                     </div>
                 </div>
 
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
                             <div className='projectsTitle'>App pour aveugle</div>
                             <div className='type'>Scolaire</div>
                             <div className='matiere'>Projet Terminal STI2D</div>
@@ -187,7 +187,7 @@ afin d’améliorer l’optimisation de son emploi du temps.</p>
                             </div>
                             <div className='date'>05/06/2020</div>
                             </div>
-                        <div class="flip-card-back">
+                        <div className="flip-card-back">
                             <p>
                                 Le but de ce projet était d'orienter
                                 une personne à accuité visuel
@@ -201,9 +201,9 @@ afin d’améliorer l’optimisation de son emploi du temps.</p>
                     </div>
                 </div>
 
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                        <div class="flip-card-front">
+                <div className="flip-card">
+                    <div className="flip-card-inner">
+                        <div className="flip-card-front">
                             <div className='projectsTitle'>Projet Tandem</div>
                             <div className='type'>Scolaire</div>
                             <div className='matiere'>Projet d'échange scolaire</div>
@@ -212,7 +212,7 @@ afin d’améliorer l’optimisation de son emploi du temps.</p>
                             </div>
                             <div className='date'>15/01/2019</div>
                             </div>
-                        <div class="flip-card-back">
+                        <div className="flip-card-back">
                             <p>
                                 
                             </p>

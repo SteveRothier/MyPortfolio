@@ -23,6 +23,7 @@
 }
 
 .myProfil {
+    padding-left: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -150,6 +151,10 @@
 }
 
 @media screen and (max-width: 900px) {
+    .myProfil {
+        padding-right: 2rem;
+    }
+
     .ProfilBox {
         margin-top: 0;
     }

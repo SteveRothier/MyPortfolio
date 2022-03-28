@@ -1,5 +1,5 @@
 import './App.css';
-import Navbar from './component/Navbar/Navbar';
+import LeftNavbar from './component/LeftNavbar/LeftNavbar';
 import Profil from './component/Profil/Profil';
 import Competence from './component/Competence/Competence';
 import Contact from './component/Contact/Contact';
@@ -10,7 +10,7 @@ import ProjectsList from './component/Project/ProjectsList';
 function App() {
   return (
     <>
-      <Navbar />
+      <LeftNavbar />
       <Profil />
       <NewsList />
       <ProjectsList />

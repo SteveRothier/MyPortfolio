@@ -1,0 +1,183 @@
+.LeftNavbarBox {
+    padding-left: 1rem;
+    position: fixed;
+    top: 20%;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.LeftNavbarBox .NavbarList {
+    color: #F0E7FD;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.myLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.15rem solid #F0E7FD;
+    border-radius: 15px;
+    background: rgb(231, 27, 71);
+    box-shadow: 0px 1px 2px #F0E7FD;
+    padding: 0.25rem;
+    margin-top: 0.5rem;
+}
+
+.StyleName {
+    color: rgb(231, 27, 71);
+    text-shadow: 1px 1px 2px rgb(231, 27, 71);
+}
+
+.myLogoHover, .homeHover, .aboutHover, .projectHover, .contactHover  {
+    display: none;
+    opacity: 0;
+}
+
+.proposAlign {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.myLogo:hover + .myLogoHover{
+    display: block;
+    opacity: 1;
+    position: absolute;
+    left: 4rem;
+    top: 11.5rem;
+}
+
+.homeLink:hover + .homeHover{
+    display: block;
+    opacity: 1;
+    position: absolute;
+    left: 4rem;
+    top: 12.75rem;
+}
+
+.aboutLink:hover + .aboutHover{
+    display: block;
+    opacity: 1;
+    position: absolute;
+    left: 4rem;
+    top: 16.75rem;
+}
+
+.projectLink:hover + .projectHover{
+    display: block;
+    opacity: 1;
+    position: absolute;
+    left: 4rem;
+    top: 18.5rem;
+}
+
+.contactLink:hover + .contactHover{
+    display: block;
+    opacity: 1;
+    position: absolute;
+    left: 4rem;
+    top: 21.5rem;
+}
+
+.typeHover {
+    background-color: crimson;
+    padding: 0.5rem;
+    border: solid #F0E7FD;
+    border-radius: 15px;
+    font-size: 1.25rem;
+}
+
+.homeLink, .aboutLink, .projectLink, .contactLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.ligne {
+    width: 0.25rem;
+    height: 9rem;
+    background-color: crimson;
+    box-shadow: 1px 2px 2px rgb(231, 27, 71);
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .LeftNavbarBox {
+        padding-left: 0;
+        position: sticky;
+        top: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        z-index: 1;
+        background-color: #4A4153;
+    }
+
+    .LeftNavbarBox .NavbarList {
+        color: #F0E7FD;
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0.75rem;
+    }
+
+    .ligne {
+        width: 9rem;
+        height: 0.25rem;
+        background-color: crimson;
+        box-shadow: 1px 2px 2px rgb(231, 27, 71);
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .myLogo {
+        margin-top: 0;
+    }
+
+    .myLogo, .aboutLink, .homeLink, .contactLink, .projectLink {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .myLogo:hover + .myLogoHover{
+        display: none;
+    }
+    
+    .homeLink:hover + .homeHover{
+        display: none;
+    }
+    
+    .aboutLink:hover + .aboutHover{
+        display: none;
+    }
+    
+    .projectLink:hover + .projectHover{
+        display: none;
+    }
+    
+    .contactLink:hover + .contactHover{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .ligne {
+        display: none;
+    }
+}

@@ -2,6 +2,7 @@
     background-color: #4A4153;
     box-shadow: 1px 1px 2px black, 0 0 15px #4A4153, 0 0 5px #4A4153;
     padding-bottom: 2rem;
+    padding-left: 4rem;
 }
 
 .language {
@@ -162,7 +163,13 @@
 
 @media screen and (max-width: 1000px) {
     .languageLevelBar {
-        width: 50rem;
+        width: 45rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .CompetenceBox {
+        padding-right: 4rem;
     }
 }
 
