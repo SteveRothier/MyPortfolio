@@ -11,29 +11,45 @@ function LeftNavbar() {
       <div className='LeftNavbarBox'>
         <div className='ligne'></div>
         <div className='NavbarList'>
-          <GiScorpion className='myLogo'/>
-          <div className='myLogoHover'>
-            <b className='StyleName'>steverothier</b>.com
-          </div>
-          <HiHome className='homeLink'/>  
-          <div className='homeHover'>
-            <p className='typeHover'>Acceuil</p>
-          </div>   
-          <SiAboutdotme className='aboutLink'/>
-          <div className='aboutHover'>
-            <div className='proposAlign typeHover'>
-              <div>À-</div> 
-              <div>propos</div>
+
+          <a href='http://localhost:3001/'>
+            <GiScorpion className='myLogo'/>
+            <div className='myLogoHover'>
+              <b className='StyleName'>steverothier</b>.com
             </div>
-          </div>
-          <AiOutlineProject  className='projectLink'/>
-          <div className='projectHover'>
-            <p className='typeHover'>Projets</p>
-          </div>  
-          <RiContactsLine className='contactLink'/>
-          <div className='contactHover'>
-            <p className='typeHover'>Contact</p>
-          </div>  
+          </a>
+
+          <a href='#home'>
+            <HiHome className='homeLink'/>  
+            <div className='homeHover'>
+              <p className='typeHover'>Acceuil</p>
+            </div>  
+          </a>
+
+          <a href='#propos'>
+            <SiAboutdotme className='aboutLink'/>
+            <div className='aboutHover'>
+              <div className='proposAlign typeHover'>
+                <div>À-</div> 
+                <div>propos</div>
+              </div>
+            </div>
+          </a>
+
+          <a href='#project'>
+            <AiOutlineProject  className='projectLink'/>
+            <div className='projectHover'>
+              <p className='typeHover'>Projets</p>
+            </div>  
+          </a>
+
+          <a href='#contact'>
+            <RiContactsLine className='contactLink'/>
+            <div className='contactHover'>
+              <p className='typeHover'>Contact</p>
+            </div>  
+          </a>
+
         </div>
         <div className='ligne'></div>
       </div>

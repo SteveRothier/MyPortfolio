@@ -6,7 +6,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 function Profil() {
   return (
     <>
-        <div className='ProfilBox'>
+        <div className='ProfilBox' id='propos'>
             <div className='proposZone'>
                 <div className='proposStyle'>
                     À propos

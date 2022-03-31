@@ -20,7 +20,7 @@ function Contact() {
 
     return (
         <>
-            <div className='ContactBox' id='#contact'>
+            <div className='ContactBox' id='contact'>
                 <div className='contactZone'>
                     <div className='contactStyle'>
                         Contact

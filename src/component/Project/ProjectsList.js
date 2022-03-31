@@ -14,7 +14,7 @@ import visuel from '../../assets/visuel.png';
 function ProjectsList() {
   return (
     <>
-        <div className='ProjectsListBox'>
+        <div className='ProjectsListBox' id='project'>
             <div className='ProjectsZone'>
                 <div className='ProjectsStyle'>
                     Projets
