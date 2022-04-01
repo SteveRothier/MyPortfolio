@@ -1,23 +1,19 @@
 import './App.css';
-import LeftNavbar from './component/LeftNavbar/LeftNavbar';
-import Profil from './component/Profil/Profil';
-import Competence from './component/Competence/Competence';
-import Contact from './component/Contact/Contact';
-import Footer from './component/Footer/Footer';
-import NewsList from './component/New/NewsList';
-import ProjectsList from './component/Project/ProjectsList';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './page/Home/Home';
+import Portfolio from './page/Portfolio/Portfolio';
 
 function App() {
   return (
     <>
-      <LeftNavbar />
-      <Profil />
-      <NewsList />
-      <ProjectsList />
-      <Competence />
-      <Contact />
-      <Footer />
+      <Router>    
+          <Switch>
+            <Route path="/" exact component={Home}/>
+            <Route path="/portfolio" component={Portfolio}/>
+          </Switch>
+      </Router>
     </>
+
   );
 }
 

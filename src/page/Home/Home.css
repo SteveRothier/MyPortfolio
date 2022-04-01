@@ -1,0 +1,62 @@
+.HomeBox {
+    background-color: crimson;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homeLogo {
+    color: #F0E7FD;
+    height: 25rem;
+    pointer-events: none;
+    font-size: 15rem;
+    filter: drop-shadow(0 0 1.25rem #2E282F);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .homeLogo {
+      animation: homeLogo-spin infinite 20s linear;
+    }
+  }
+
+@keyframes homeLogo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.startedButton {
+    background-color: #2E282F;
+    color: #fff;
+    width: 10rem;
+    height: 3rem;
+    border: solid #4A4153;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black, 0 0 25px #4A4153, 0 0 5px #4A4153;
+}
+
+.startedButton a {
+    color: #F0E7FD;
+    text-shadow: 1px 1px 2px #F0E7FD;
+}
+
+.startedButton:hover {  
+    transform: translateY(0.25rem);
+    filter: drop-shadow(0 0 0.5rem #2E282F);
+}
+
+@media screen and (max-width: 500px) {
+    .homeLogo {
+        font-size: 10rem;
+    }
+
+    .startedButton {
+        width: 8rem;
+        height: 2.5rem;
+    }
+}
