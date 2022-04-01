@@ -74,6 +74,10 @@ a {
     color: #F0E7FD;
 }
 
+.ReseauLogo:hover {
+    filter: drop-shadow(0 0 1rem crimson);
+}
+
 @media screen and (max-width: 500px) {
     .copyright {
         display: flex;

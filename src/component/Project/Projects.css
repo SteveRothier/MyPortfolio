@@ -109,6 +109,32 @@
   height: 22.75rem;
 }
 
+.firstLink {
+  position: absolute;
+  bottom: 0;
+  right: 0.5rem;
+}
+
+.lastLink {
+  position: absolute;
+  bottom: 0;
+  right: 4rem;
+}
+
+.pdf {
+  padding: 0.75rem;
+  border-radius: 25px;
+  background-color: #F40F02;
+  box-shadow: 1px 1px 2px #F40F02;
+}
+
+.download {
+  padding: 0.75rem;
+  border-radius: 25px;
+  background-color: #2E282F;
+  box-shadow: 1px 1px 2px #2E282F;
+}
+
 @media screen and (max-width: 1500px) {
   .ProjectsListBox {
     padding-right: 1rem;
