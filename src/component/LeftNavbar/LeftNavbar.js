@@ -12,14 +12,14 @@ function LeftNavbar() {
         <div className='ligne'></div>
         <div className='NavbarList'>
 
-          <a href='http://localhost:3001/'>
+          <a href='https://steverothier.netlify.app'>
             <GiScorpion className='myLogo'/>
             <div className='myLogoHover'>
               <b className='StyleName'>steverothier</b>.com
             </div>
           </a>
 
-          <a href='#home'>
+          <a href='/'>
             <HiHome className='homeLink'/>  
             <div className='homeHover'>
               <p className='typeHover'>Acceuil</p>
