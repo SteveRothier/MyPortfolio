@@ -12,6 +12,10 @@ function Home() {
                     Get started
                 </a>
             </button>
+            <div className='name'>
+                <div className='nickname'>STEVE</div>
+                <div className='lastname'>ROTHIER</div>
+            </div>
         </div>
     </>
   );

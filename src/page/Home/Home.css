@@ -8,11 +8,12 @@
 }
 
 .homeLogo {
+    z-index: 1;
     color: #F0E7FD;
     height: 25rem;
-    pointer-events: none;
     font-size: 15rem;
     filter: drop-shadow(0 0 1.25rem #2E282F);
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -31,6 +32,7 @@
 }
 
 .startedButton {
+    z-index: 1;
     background-color: #2E282F;
     color: #fff;
     width: 10rem;
@@ -50,6 +52,74 @@
     filter: drop-shadow(0 0 0.5rem #2E282F);
 }
 
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    font-size: 20rem;
+    color: transparent;
+    -webkit-text-stroke: 5px #2E282F;
+    font-weight: bold;
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.nickname {
+    height: 17.5rem;
+}
+
+@media screen and (max-width: 1500px) {
+    .name {
+        font-size: 17.5rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .name {
+        font-size: 15rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .name {
+        font-size: 12.5rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .name {
+        font-size: 10rem;
+    }
+
+    .nickname {
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .name {
+        font-size: 8.5rem;
+    }
+
+    .nickname {
+        height: 12.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .name {
+        font-size: 7.5rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .name {
+        font-size: 6rem;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .homeLogo {
         font-size: 10rem;
@@ -60,3 +130,14 @@
         height: 2.5rem;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .name {
+        font-size: 5rem;
+    }
+
+    .nickname {
+        height: 7.5rem;
+    }
+}
+
