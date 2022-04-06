@@ -12,8 +12,6 @@ import visuel from '../../assets/visuel.png';
 
 import { FaGithub } from "react-icons/fa";
 import { BsFileEarmarkPdfFill } from "react-icons/bs";
-import { FaFileDownload } from "react-icons/fa";
-
 
 import terminal from '../../assets/terminal.pdf#toolbar=0';
 import TPDroit from '../../assets/TPDroit.pdf#toolbar=0';
@@ -74,14 +72,9 @@ function ProjectsList() {
                         <div className="flip-card-back">
                             <p>
                                 <div>
-                                    <a href={ProjetS4} className='firstLink'>
-                                        <BsFileEarmarkPdfFill className='pdf ReseauLogo'/>
+                                    <a href={ProjetS4} className='firstLink pdf ReseauLogo'>
+                                        <BsFileEarmarkPdfFill/>
                                     </a>
-                                </div>
-                                <div>
-                                    <a href={ProjetS4} className='lastLink' download>
-                                      <FaFileDownload className='download ReseauLogo'/>
-                                    </a>                                
                                 </div>
                             </p>
                         </div>
@@ -106,21 +99,13 @@ function ProjectsList() {
                             <p>
                                 <div>
                                     Voir le pdf 
-                                    <a href={Dossier_documentaire} className='firstLink'>
-                                        <BsFileEarmarkPdfFill className='pdf ReseauLogo'/>
+                                    <a href={Dossier_documentaire} className='firstLink pdf ReseauLogo'>
+                                        <BsFileEarmarkPdfFill/>
                                     </a>
-                                </div>
-                                <div>
-                                  Télécharger le pdf
-                                  <a href={Dossier_documentaire} className='lastLink' download>ici.</a>                                
                                 </div>
                                 <div>
                                     Voir le pdf 
                                     <a href={Teams}>ici.</a>
-                                </div>
-                                <div>
-                                  Télécharger le pdf
-                                  <a href={Teams} className='lastLink' download>ici.</a>                                
                                 </div>
                             </p>
                         </div>
@@ -141,14 +126,9 @@ function ProjectsList() {
                         <div className="flip-card-back">
                             <p>
                                 <div>
-                                    <a href={TPGestion} className='firstLink'>
-                                        <BsFileEarmarkPdfFill className='pdf ReseauLogo'/>
+                                    <a href={TPGestion} className='firstLink pdf ReseauLogo'>
+                                        <BsFileEarmarkPdfFill/>
                                     </a>
-                                </div>
-                                <div>
-                                    <a href={TPGestion} className='lastLink' download>
-                                        <FaFileDownload className='download ReseauLogo'/>
-                                    </a>                                
                                 </div>
                             </p>
                         </div>
@@ -175,14 +155,9 @@ function ProjectsList() {
                             </p>
                             <p>
                                 <div>
-                                    <a href={vet_consut} className='firstLink'>
-                                        <BsFileEarmarkPdfFill className='pdf ReseauLogo'/>
+                                    <a href={vet_consut} className='firstLink pdf ReseauLogo'>
+                                        <BsFileEarmarkPdfFill />
                                     </a>
-                                </div>
-                                <div>
-                                    <a href={vet_consut} className='lastLink' download>
-                                        <FaFileDownload className='download ReseauLogo'/>   
-                                    </a>                                
                                 </div>
                             </p>
                         </div>
@@ -201,16 +176,11 @@ function ProjectsList() {
                             <div className='date'>14/12/2021</div>
                             </div>
                         <div className="flip-card-back">
-                        <p>
+                            <p>
                                 <div>
-                                    <a href={TPDroit} className='firstLink'>
-                                        <BsFileEarmarkPdfFill className='pdf ReseauLogo'/>
+                                    <a href={TPDroit} className='firstLink pdf ReseauLogo'>
+                                        <BsFileEarmarkPdfFill/>
                                     </a>
-                                </div>
-                                <div>
-                                    <a href={TPDroit} className='lastLink' download>
-                                        <FaFileDownload className='download ReseauLogo'/>
-                                    </a>                                
                                 </div>
                             </p>
                         </div>
@@ -247,8 +217,14 @@ function ProjectsList() {
                             </div>
                         <div className="flip-card-back">
                             <p>
-                                Dans le cadre du concours Je filme
-                                le métier qui me plaît péconisé dans 
+                                Dans le cadre du concours 
+                                    <a 
+                                        className='websiteLink'
+                                        href='https://jefilmelemetierquimeplait.tv'
+                                    >
+                                        Je filme
+                                        le métier qui me plaît 
+                                    </a>péconisé dans 
                                 Parcours Avenir,
                                 ce projet a pour objectif 
                                 principal de réaliser une vidéo 
@@ -262,7 +238,7 @@ function ProjectsList() {
                             </p>
                             <p>
                                 <a href='https://github.com/SteveRothier/ProjetS1' className='firstLink'> 
-                                    <FaGithub className='ReseauLogo github'/>
+                                    <FaGithub className='github ReseauLogo'/>
                                 </a>
                             </p>
                         </div>
@@ -297,14 +273,9 @@ function ProjectsList() {
                             </p>
                             <p>
                                 <div>
-                                    <a href={terminal} className='firstLink'>
-                                        <BsFileEarmarkPdfFill className='pdf ReseauLogo'/>
+                                    <a href={terminal} className='firstLink pdf ReseauLogo'>
+                                        <BsFileEarmarkPdfFill/>
                                     </a>
-                                </div>
-                                <div>
-                                    <a href={terminal} className='lastLink' download>
-                                        <FaFileDownload className='download ReseauLogo'/>
-                                    </a>                                
                                 </div>
                             </p>
                         </div>
@@ -324,7 +295,13 @@ function ProjectsList() {
                             </div>
                         <div className="flip-card-back">
                             <p>
-                                Un projet d'échange scolaire entre le lycée Stephen Hessel d'Epernay
+                                Le 
+                                    <a 
+                                        className='websiteLink' 
+                                        href='https://ville-tandem.eu/projet/construction-dune-eolienne-par-une-classe-de-lyceens/'>
+                                            projet TANDEM
+                                    </a> 
+                                est un projet d'échange scolaire entre le lycée Stephen Hessel d'Epernay
                                 et les élèves de la Realschule Anne Frank 
                                 et du Gymnasium Albertus d’Ettlingen.
                             </p>

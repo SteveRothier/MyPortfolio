@@ -42,7 +42,7 @@ function Footer() {
                 <BiCopyright />
                 2022
               </div>
-              <a href='steverothier.com'>Steve Rothier</a> Tous droits réservés.
+              <a className='myFooterName' href='steverothier.com'>Steve Rothier</a> Tous droits réservés.
             </div>
         </div>
     </>

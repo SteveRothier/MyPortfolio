@@ -111,14 +111,11 @@
 
 .firstLink {
   position: absolute;
-  bottom: 0;
-  right: 0.5rem;
-}
-
-.lastLink {
-  position: absolute;
-  bottom: 0;
-  right: 4rem;
+  bottom: 0.5rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .pdf {
@@ -133,6 +130,12 @@
   border-radius: 25px;
   background-color: #2E282F;
   box-shadow: 1px 1px 2px #2E282F;
+}
+
+.websiteLink {
+  color: #F0E7FD;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 @media screen and (max-width: 1500px) {
