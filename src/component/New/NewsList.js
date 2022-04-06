@@ -29,7 +29,13 @@ function NewsList() {
                         </div>
                         <div className="flip-card-back">
                             <p>
-                                Je suis à la recherche d'un stage en informatique 
+                                Je suis à la recherche d'un 
+                                <a 
+                                    className='websiteLink'
+                                    href='https://www.iut-rcc.fr/formations/recherche-de-stages/recherche-de-stages,24332,39960.html'
+                                >
+                                    stage en informatique
+                                </a>
                                 pour valider ma derrière année de DUT informatique 
                                 à l'IUT de Reims. Ce stage de 10 à 12 semaines à pour but 
                                 de m'initier dans ma vie professionnel avec un projet à 
