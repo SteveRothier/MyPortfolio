@@ -105,6 +105,12 @@
     display: none;
 }
 
+.cvLink {
+    color: #F0E7FD;
+    padding-left: 0.75rem;
+    padding-right: 1rem;
+}
+
 @media screen and (max-width: 1250px) {
     .ProfilBox {
         margin-top: 1rem;

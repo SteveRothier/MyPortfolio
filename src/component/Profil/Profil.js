@@ -31,14 +31,14 @@ function Profil() {
                     </div>
                     <div className='myCv'>
                         <p>Vous souhaitez avoir mon CV au format PDF c'est par </p>
-                        <a href={cv}>ici.</a> | 
+                        <a className='cvLink' href={cv}>ici.</a>
                         <a href={cv} download> <AiOutlineDownload className='myCvDownload'/></a>
                     </div>
                 </div>
             </div>
             <div className='myCvNone'>
                 <p>Vous souhaitez avoir mon CV au format PDF c'est par </p>
-                <a href={cv}>ici.</a> |
+                <a className='websiteLink' href={cv}>ici.</a> |
                 <div>
                     <a href={cv} download> <AiOutlineDownload className='myCvDownload'/></a>
                 </div>
