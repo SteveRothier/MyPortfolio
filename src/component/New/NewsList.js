@@ -58,7 +58,14 @@ function NewsList() {
                         </div>
                         <div className="flip-card-back">
                             <p>
-
+                                Etudiant en DUT informatique
+                                à l'
+                                <a 
+                                    className='websiteLink'
+                                    href='https://www.iut-rcc.fr'
+                                >
+                                    IUT de Reims.
+                                </a>
                             </p>
                         </div>
                     </div>

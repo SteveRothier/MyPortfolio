@@ -45,6 +45,7 @@
 .startedButton a {
     color: #F0E7FD;
     text-shadow: 1px 1px 2px #F0E7FD;
+    text-decoration: none;
 }
 
 .startedButton:hover {  

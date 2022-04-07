@@ -47,8 +47,9 @@ function ProjectsList() {
                             <div className='date'>21/03/2022</div>
                             </div>
                         <div className="flip-card-back">
-                            <p>Ce portfolio me permet de montrer mon profil en tant que developpeur</p> 
-                            <p>Créer entierement en ReactJS</p>
+                            <p>Ce portfolio me permet de montrer mon 
+                                profil en tant que developpeur.
+                            </p> 
                             <p>
                                 <a href='https://github.com/SteveRothier/myPortfolio' className='firstLink'> 
                                     <FaGithub className='ReseauLogo github'/>
@@ -71,9 +72,29 @@ function ProjectsList() {
                             </div>
                         <div className="flip-card-back">
                             <p>
+                                Dernier projet du DUT consistait 
+                                à réaliser une application en
+                                javascript suite à l'option .Web .
+                            </p>
+                            <p>
+                                Cela consistait à réaliser 
+                                un gestionnaire de note 
+                                permettant de voir la notation du semestre en cours.
+                            </p>
+                            <p>
+                                Projet réaliser en ReactJs et d'une API 
+                                comme base de données pour les étudiants et 
+                                les notes.
+                            </p>
+                            <p>
                                 <div>
                                     <a href={ProjetS4} className='firstLink pdf ReseauLogo'>
                                         <BsFileEarmarkPdfFill/>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href='https://github.com/SteveRothier/ProjetS4' className='secondLink github ReseauLogo'>
+                                        <FaGithub/>
                                     </a>
                                 </div>
                             </p>
@@ -94,18 +115,31 @@ function ProjectsList() {
                             </div>
                         <div className="flip-card-back">
                             <p>
-                                full impro blabla
+                                Projet en deux parties sur 
+                                le thème de la Communication 
+                                dans les organisation dont un
+                                dossier documentaire avec 
+                                problèmatique Teams dans le 
+                                mileu scolaire et oral de 10
+                                minutes sur le même sujet.
+                            </p>
+                            <p>
+                                Avoir une bonne connaissance sur 
+                                le sujet m'a permit de me
+                                présenter l'oral sans préparation
+                                en toute improvisiation grâce
+                                au support visuel.
                             </p>
                             <p>
                                 <div>
-                                    Voir le pdf 
                                     <a href={Dossier_documentaire} className='firstLink pdf ReseauLogo'>
                                         <BsFileEarmarkPdfFill/>
                                     </a>
                                 </div>
                                 <div>
-                                    Voir le pdf 
-                                    <a href={Teams}>ici.</a>
+                                    <a href={Teams} className='secondLink pdf ReseauLogo'>
+                                        <BsFileEarmarkPdfFill/>
+                                    </a>
                                 </div>
                             </p>
                         </div>
@@ -125,6 +159,13 @@ function ProjectsList() {
                             </div>
                         <div className="flip-card-back">
                             <p>
+                                <p>
+                                    Projet de groupe sur une création
+                                    d'entreprise dans un dossier
+                                    structuré par des consignes en 
+                                    plusieurs étapes ainsi de sa 
+                                    viabilité dans le futur.
+                                </p>
                                 <div>
                                     <a href={TPGestion} className='firstLink pdf ReseauLogo'>
                                         <BsFileEarmarkPdfFill/>
@@ -154,6 +195,20 @@ function ProjectsList() {
                                 de son emploi du temps.
                             </p>
                             <p>
+                                Nous avons utlisé la méthode 
+                                agile Scrum pour progresser 
+                                dans l'avancement du projet
+                                tout en utilisant l'outil
+                                <a 
+                                    className='websiteLink'
+                                    href='https://trello.com/'
+                                >
+                                    Trello
+                                </a>
+                                pour nous répartir les 
+                                tâches.
+                            </p>
+                            <p>
                                 <div>
                                     <a href={vet_consut} className='firstLink pdf ReseauLogo'>
                                         <BsFileEarmarkPdfFill />
@@ -178,6 +233,26 @@ function ProjectsList() {
                         <div className="flip-card-back">
                             <p>
                                 <div>
+                                    <p>
+                                        Projet de groupe sur une analyse 
+                                        de l'application dans le cadre d'une 
+                                        situation juridique.
+                                    </p>
+                                    <p>
+                                        Nous devions trouver un arrêt de justice
+                                        pour réaliser un dossier synthétique dans
+                                        une analyse avec premièrement la situation
+                                        de la situation puis l'analyse méthodique 
+                                        en plusieurs partie :
+                                    <p>
+                                        résumé,
+                                        déroulement de la procédure,
+                                        enoncé du problème,
+                                        moyens des parties,
+                                        dispositif de la décision,
+                                        motifs de la décision
+                                    </p>                                            
+                                    </p>
                                     <a href={TPDroit} className='firstLink pdf ReseauLogo'>
                                         <BsFileEarmarkPdfFill/>
                                     </a>
@@ -199,7 +274,20 @@ function ProjectsList() {
                             <div className='date'>10/06/2021</div>
                             </div>
                         <div className="flip-card-back">
-
+                            <p>
+                                Ce projet de deux semaines basé 
+                                sur de la base de données.
+                                Avec comme premier objectif de 
+                                réaliser un bot discord afin d'afficher
+                                des caractéristiques d'un film.
+                            </p>
+                            <p>
+                                Nous nous sommes tournés sur l'affichage
+                                des données sur une page web en php.
+                                Cette base de données devait être 
+                                alimenter par un formulaire avec 
+                                l'utilisation de PhpMyAdmin.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -235,6 +323,17 @@ function ProjectsList() {
                                 interview d'une personne 
                                 travaillant dans le métier 
                                 choisi.
+                            </p>
+                            <p>
+                                Premier projet de création de site web
+                                en HTML et CSS tout en utilisant
+                                le framework 
+                                    <a 
+                                        className='websiteLink'
+                                        href='https://getbootstrap.com'
+                                    >
+                                        Bootstrap.
+                                    </a>
                             </p>
                             <p>
                                 <a href='https://github.com/SteveRothier/ProjetS1' className='firstLink'> 

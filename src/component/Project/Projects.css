@@ -118,6 +118,15 @@
   justify-content: center;
 }
 
+.secondLink {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .pdf {
   padding: 0.75rem;
   border-radius: 25px;
