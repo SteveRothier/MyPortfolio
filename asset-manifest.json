@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.52bcf75e.css",
+    "main.js": "/MyPortfolio/static/js/main.73ee51c5.js",
+    "static/js/787.1ed0c42c.chunk.js": "/MyPortfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/vet_consut.pdf#toolbar=0": "/MyPortfolio/static/media/vet_consut.e979d541f21f489339b8.pdf",
+    "static/media/TPGestion.pdf#toolbar=0": "/MyPortfolio/static/media/TPGestion.443992d781a7a6293b98.pdf",
+    "static/media/ProjetS4.pdf#toolbar=0": "/MyPortfolio/static/media/ProjetS4.81d1ba09954e1e29ff74.pdf",
+    "static/media/terminal.pdf#toolbar=0": "/MyPortfolio/static/media/terminal.0f8e844b7ef578e5498c.pdf",
+    "static/media/filmBot.png": "/MyPortfolio/static/media/filmBot.818d8757fd604df6c55e.png",
+    "static/media/Teams.pdf#toolbar=0": "/MyPortfolio/static/media/Teams.74142aee9d9b558ab2a9.pdf",
+    "static/media/CV.pdf#toolbar=0": "/MyPortfolio/static/media/CV.f3da46a64ec1b19ae7fa.pdf",
+    "static/media/Dossier_documentaire.pdf#toolbar=0": "/MyPortfolio/static/media/Dossier_documentaire.92ae76d0a093511532a2.pdf",
+    "static/media/TPDroit.pdf#toolbar=0": "/MyPortfolio/static/media/TPDroit.7e5fc8b010a8ee4a4e74.pdf",
+    "static/media/droit.png": "/MyPortfolio/static/media/droit.1a96290635a7a681f14a.png",
+    "static/media/gestion.png": "/MyPortfolio/static/media/gestion.a770ac3a5f989435261d.png",
+    "static/media/teamsLogo.png": "/MyPortfolio/static/media/teamsLogo.76dd13aecd2910859288.png",
+    "static/media/myHead.png": "/MyPortfolio/static/media/myHead.6392f52059ef6c4974b3.png",
+    "static/media/intership.jpg": "/MyPortfolio/static/media/intership.b41dbe18823112137bdf.jpg",
+    "static/media/vet_consult.png": "/MyPortfolio/static/media/vet_consult.c166f953725da204cea1.png",
+    "static/media/portfolio.png": "/MyPortfolio/static/media/portfolio.969aad85ba7e06bdcffc.png",
+    "static/media/WebNot.png": "/MyPortfolio/static/media/WebNot.fd32059fa9c09c597426.png",
+    "static/media/tandem.png": "/MyPortfolio/static/media/tandem.72b50e8d678cec15e43e.png",
+    "index.html": "/MyPortfolio/index.html",
+    "main.52bcf75e.css.map": "/MyPortfolio/static/css/main.52bcf75e.css.map",
+    "main.73ee51c5.js.map": "/MyPortfolio/static/js/main.73ee51c5.js.map",
+    "787.1ed0c42c.chunk.js.map": "/MyPortfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52bcf75e.css",
+    "static/js/main.73ee51c5.js"
+  ]
+}
